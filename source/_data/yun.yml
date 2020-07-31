@@ -1,4 +1,56 @@
+mode: auto
 avatar:
-  url: ../../images/touxiang.jpg # 你的头像图片地址
-  rounded: true
-  opacity: 1
+  url: ../touxiang.jpg
+  mickey_mouse: true
+  
+
+banner:
+  enable: false
+  title: 
+  - 陈
+  - cheng
+  - 的
+  - 小
+  - 虾
+  - 米
+  src: /js/ui/banner.js
+  border: false
+  color: "white"
+  cloud:
+    enable: false
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+bg_image:
+  enable: true
+  url: https://cdn.jsdelivr.net/gh/zjcrong1996/CDN/images/background.jpg
+  # dark:
+  blur: 5px # 设置背景模糊程度
+  opacity: 0.8
+
+say:
+  enable: false
+
+notice:
+  enable: false
+
+favicon: ../xia.png
+
+social:
+  - name: GitHub
+    link: https://github.com/zjcrong1996
+    icon: icon-github-line
+    color: "#6e5494"
+  - name: E-Mail
+    link: mailto:zeng12155@163.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+
+pages:
+
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line

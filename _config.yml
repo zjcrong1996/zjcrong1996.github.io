@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 陈cheng的小虾米
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: 小xia米
+language: zh-CN
 timezone: ''
 
 # URL
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yun
+theme: diaspora
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
