@@ -4,12 +4,4 @@ HTMLElement.prototype.wrap = function(wrapper) {
   wrapper.appendChild(this);
 };
 
-Yun.utils = {
-  wrapTable: () => {
-    document.querySelectorAll("table").forEach((el) => {
-      const container = document.createElement("div");
-      container.className = "table-container";
-      el.wrap(container);
-    });
-  },
-};
+
